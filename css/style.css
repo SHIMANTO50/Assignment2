@@ -41,3 +41,8 @@ nav {
     text-decoration: none;
     color: black;
 }
+
+.second-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
