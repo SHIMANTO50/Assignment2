@@ -42,7 +42,52 @@ nav {
     color: black;
 }
 
+.second-section-title {
+    font-size: 52px;
+    margin-top: 91px;
+}
+
 .second-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
+}
+
+.prebbok-btn {
+    border: none;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    padding-right: 5px;
+    font-size: 15px;
+
+}
+
+.second-section-paragraph {
+    margin: 18px 0;
+    font-size: 16px;
+}
+
+/* preebook button design */
+.fa-long-arrow-alt-right {
+    padding-left: 8px;
+    font-size: 15px;
+
+}
+
+.camera-logo img {
+    margin-left: 150px;
+    width: 60;
+    margin-top: 45px;
+
+}
+
+.all-footer-content {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
 }
