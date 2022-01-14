@@ -91,3 +91,16 @@ nav {
     color: white;
     margin-top: 20px;
 }
+
+.footer-logo {
+    padding-top: 10px;
+}
+
+.footer-details {
+    padding-top: 30px;
+    margin-top: 200px;
+}
+
+.fab {
+    margin: 10px;
+}
