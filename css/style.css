@@ -70,6 +70,24 @@ nav {
 
 }
 
+.order-now-btn {
+    border: none;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    padding-right: 5px;
+    font-size: 15px;
+}
+
+.see-more-btn-style a {
+    text-decoration: none;
+    color: #E02C6D;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
 .second-section-paragraph {
     margin: 18px 0;
     font-size: 16px;
@@ -92,6 +110,9 @@ nav {
 .fa-long-arrow-alt-right {
     padding-left: 8px;
     font-size: 15px;
+    padding-top: 5px;
+
+
 
 }
 
