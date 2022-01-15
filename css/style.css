@@ -192,14 +192,14 @@ nav {
 .popular-collections {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 40px;
+    grid-row-gap: 60px;
 }
 
 /*box shadow for each image*/
 .single-collection {
     width: 300px;
     padding: 30px;
-    box-shadow: 0 35px 35px rgba(0, 0, 0, .3);
+    box-shadow: 0 35px 35px rgba(0, 0, 0, .6);
 }
 
 /*only image adjust into 300px width*/
