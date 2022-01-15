@@ -53,6 +53,12 @@ nav {
 
 }
 
+.gear-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 200px;
+}
+
 .prebbok-btn {
     border: none;
     background-color: #E02C6D;
@@ -68,6 +74,17 @@ nav {
     margin: 18px 0;
     font-size: 16px;
 }
+
+.fourth-section-title {
+    font-size: 52px;
+    margin-top: 91px;
+}
+
+.fourth-section-paragraph {
+    margin: 18px 0;
+    font-size: 16px;
+}
+
 
 /* preebook button design */
 .fa-long-arrow-alt-right {
@@ -108,5 +125,14 @@ nav {
     background-color: gray;
     border-radius: 10px;
     padding: 10px;
+
+}
+
+.influencer-gear-logo img {
+
+    width: 80%;
+    margin-top: 180px;
+    margin-left: 150px;
+    border-radius: 15px;
 
 }
