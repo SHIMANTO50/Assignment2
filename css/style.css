@@ -248,4 +248,20 @@ nav {
     .container {
         padding-left: 70px;
     }
+
+    .influencer-gear-logo img {
+
+        padding-right: 200px;
+        padding-top: 150px;
+        width: 100%;
+
+    }
+
+    .camera-logo img {
+        margin-left: 100px;
+        margin-top: 150px;
+
+    }
+
+
 }
