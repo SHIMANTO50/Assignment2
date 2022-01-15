@@ -230,6 +230,8 @@ nav {
 }
 
 /*responsive css*/
+
+
 @media (max-width:994px) {
     .popular-collections {
         display: grid;
@@ -262,6 +264,40 @@ nav {
         margin-top: 150px;
 
     }
+
+
+}
+
+@media (max-width:817px) {
+
+    .camera-logo img {
+        margin-left: 70px;
+        margin-top: 150px;
+
+    }
+
+}
+
+@media (max-width:768px) {
+    .popular-collections {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+    }
+
+    .all-footer-content {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: #0A0826;
+
+        color: white;
+        margin-top: 20px;
+        width: 800px;
+    }
+
+
+    /*for mobile device*/
 
 
 }
