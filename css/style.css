@@ -73,6 +73,7 @@ nav {
 .second-section-paragraph {
     margin: 18px 0;
     font-size: 16px;
+    text-align: justify;
 }
 
 .fourth-section-title {
@@ -83,10 +84,11 @@ nav {
 .fourth-section-paragraph {
     margin: 18px 0;
     font-size: 16px;
+    text-align: justify;
 }
 
 
-/* preebook button design */
+/* preebook button design fontawesome class */
 .fa-long-arrow-alt-right {
     padding-left: 8px;
     font-size: 15px;
@@ -135,4 +137,35 @@ nav {
     margin-left: 150px;
     border-radius: 15px;
 
+}
+
+/*popular collection section start*/
+.popular-collection-title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.popular-collections {
+    margin-top: 60px;
+}
+
+/*star rating color*/
+.fa-star {
+    color: orange;
+}
+
+.fa-star-half-alt {
+    color: orange;
+}
+
+.rating-span-class {
+    margin-left: 5px;
+}
+
+/* display 3 products in one row*/
+.popular-collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
 }
