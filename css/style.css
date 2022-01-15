@@ -232,6 +232,7 @@ nav {
 /*responsive css*/
 
 
+
 @media (max-width:994px) {
     .popular-collections {
         display: grid;
@@ -265,6 +266,10 @@ nav {
 
     }
 
+    .all-footer-content {
+        width: 1000px;
+    }
+
 
 }
 
@@ -296,8 +301,26 @@ nav {
         width: 800px;
     }
 
+    .all-footer-content {
+        width: 1000px;
+    }
 
-    /*for mobile device*/
+}
 
 
+
+@media (max-width:480px) {
+    .popular-collections {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 150px;
+    }
+
+    .popular-collection-title {
+        padding-left: 200px;
+    }
+
+    .all-footer-content {
+        width: 1000px;
+    }
 }
