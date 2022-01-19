@@ -284,6 +284,7 @@ nav {
 }
 
 @media (max-width:768px) {
+
     .popular-collections {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -310,6 +311,22 @@ nav {
 
 
 @media (max-width:480px) {
+
+    .second-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .influencer-details {
+        order: 2;
+        margin-left: 150px;
+    }
+
+    .gear-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .popular-collections {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -320,7 +337,25 @@ nav {
         padding-left: 200px;
     }
 
+    .camera-logo {
+        margin-left: 100px;
+    }
+
     .all-footer-content {
         width: 1000px;
+    }
+
+
+
+    .second-section {
+        padding-right: 100px;
+    }
+
+    .second-section-paragraph {
+        font-size: 20px;
+    }
+
+    .popular-collection {
+        margin-left: 80px;
     }
 }
